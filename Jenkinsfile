@@ -33,7 +33,7 @@ pipeline {
 
             steps {
                 
-                    cp /root/.jenkins/workspace/multibranch-pipeline_master/target/jenkins-example-1.0-SNAPSHOT.jar /mnt/servers/apache-tomcat-9.0.76/webapps/
+                    sh "cp /root/.jenkins/workspace/multibranch-pipeline_master/target/jenkins-example-1.0-SNAPSHOT.jar /mnt/servers/apache-tomcat-9.0.76/webapps/"
 
                 }
             
